@@ -9,5 +9,9 @@ public class MassivSlov {
         System.out.println("Задайте количество слов в массиве");
         dlinaMassiva = input.nextInt();
         //System.out.print("Введено число = " + dlinaMassiva);
+
+
+
+        //ляляляля изменение
     }
 }
