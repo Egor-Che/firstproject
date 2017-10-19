@@ -27,4 +27,4 @@ public class MassivSlov {
         System.out.println("Самое длинное слово: " + massivSlov[iMax]);
     }
 }
-//changes
+
