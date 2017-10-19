@@ -1,3 +1,9 @@
+/**
+ * Author: Egor_Che
+ * 18.10.2017
+ * Aplana
+ */
+
 import java.io.IOException;
 import java.util.Scanner;
 
