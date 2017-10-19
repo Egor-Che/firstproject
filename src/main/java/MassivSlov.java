@@ -1,20 +1,23 @@
 import java.io.IOException;
 import java.util.Scanner;
 
+import static java.lang.System.in;
+import static java.lang.System.out;
+
 public class MassivSlov {
-    public static void main(String[] args) throws IOException {
-        Scanner input = new Scanner(System.in);
+    public static void run(String[] args) throws IOException {
+        Scanner input = new Scanner(in);
         int dlinaMassiva;
-        System.out.println("Задайте количество слов в массиве");
+        out.println("Задайте количество слов в массиве");
         dlinaMassiva = input.nextInt();
         String[] massivSlov = new String[dlinaMassiva];
-        System.out.println("Введите слова, по одному с новой строки");
+        out.println("Введите слова, по одному с новой строки");
         for (int i = 0; i < massivSlov.length; i++) {
             massivSlov[i] = input.next();
         }
-        System.out.print("Вы ввели " + dlinaMassiva + " слов(а): ");
+        out.print("Вы ввели " + dlinaMassiva + " слов(а): ");
         for (int i = 0; i < massivSlov.length; i++) {
-            System.out.print(massivSlov[i] + " ");
+            out.print(massivSlov[i] + " ");
         }
         int iMax = -1, iMaxLength = -1;
         for (int i = 0; i < massivSlov.length; i++) {
@@ -24,7 +27,7 @@ public class MassivSlov {
             }
 
         }
-        System.out.println("Самое длинное слово: " + massivSlov[iMax]);
+        out.println("\n" + "Самое длинное слово: " + massivSlov[iMax]);
     }
 }
 
