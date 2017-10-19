@@ -35,7 +35,7 @@ public class MassivSlov {
 
         }
         out.println("\n" + "Самое длинное слово: " + massivSlov[iMax]);
-        System.out.println("\n" + "Введите цифру: 1 или 2 для выбора программы, или 0 для выхода");
+        System.out.println("\n" + "Введите цифру от 1 до 3 для выбора программы, или 0 для выхода");
     }
 }
 

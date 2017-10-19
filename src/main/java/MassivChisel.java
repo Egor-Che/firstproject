@@ -8,13 +8,13 @@ import java.io.IOException;
 import java.util.*;
 
 public abstract class MassivChisel {
-    public static void main(String... args) throws IOException{
+    public static void run(String... args) throws IOException {
         Scanner input = new Scanner(System.in);
         //Создать массив упорядоченный
         int[] myArray = new int[20];
         int var = myArray.length;
         for (int i = 0; i < var; i++) {
-            myArray[i] = i -10;
+            myArray[i] = i - 10;
         }
 
         // перемешать числа
@@ -33,18 +33,19 @@ public abstract class MassivChisel {
         int maxVal = 10;
         int positionOfSearch = 0;
         for (int i = 0; i < myArray.length; i++) {
-            if (myArray[i] < minVal && myArray[i] < 0){
+            if (myArray[i] < minVal && myArray[i] < 0) {
                 minVal = myArray[i];
-                positionOfSearch = i+1;
+                positionOfSearch = i + 1;
             }
         }
         System.out.println("Максимальное отрицательное значение: " + minVal + " В позиции " + positionOfSearch);
         for (int i = 0; i < myArray.length; i++) {
-            if (myArray[i] >= 1 && myArray[i] < maxVal){
+            if (myArray[i] >= 1 && myArray[i] < maxVal) {
                 maxVal = myArray[i];
-                positionOfSearch = i+1;
+                positionOfSearch = i + 1;
             }
         }
         System.out.println("Минимальное положительное значение: " + maxVal + " В позиции " + positionOfSearch);
+        System.out.println("\n" + "Введите цифру от 1 до 3 для выбора программы, или 0 для выхода");
     }
 }
