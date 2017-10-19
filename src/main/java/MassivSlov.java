@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
+import static java.lang.System.*;
 import static java.lang.System.in;
 import static java.lang.System.out;
 
@@ -28,6 +29,7 @@ public class MassivSlov {
 
         }
         out.println("\n" + "Самое длинное слово: " + massivSlov[iMax]);
+        System.out.println("\n" + "Введите цифру: 1 или 2 для выбора программы, или 0 для выхода");
     }
 }
 

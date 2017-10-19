@@ -75,7 +75,7 @@ public class Calculator {
                 System.out.println("Вы неверно ввели знак действия");
                 System.out.println("Повторите попытку заново");
             }
-
         }
+        System.out.println("\n" + "Введите цифру: 1 или 2 для выбора программы, или 0 для выхода");
     }
 }

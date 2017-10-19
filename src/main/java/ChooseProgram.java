@@ -25,6 +25,7 @@ public class ChooseProgram {
                     MassivSlov.run(args);
                     break;
                 case 0:
+                    System.out.println("Вы вышли из программы");
                     System.exit(0);
                 default:
                     System.out.println("Неверный ввод");
