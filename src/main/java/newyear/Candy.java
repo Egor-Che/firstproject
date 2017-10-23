@@ -9,26 +9,17 @@ package newyear;
 public class Candy {
 
     private final long pcs;
-    private final String name;
+    private final String type;
     private final double weight;
     private final double price;
-//    private final String color;
 
-    public Candy(long pcs, String name, double weight, double price) {
+    public Candy(long pcs, String type, double weight, double price) {
         this.pcs = pcs;
-        this.name = name;
+        this.type = type;
         this.weight = weight;
         this.price = price;
     }
-/*
-    public String Jellybean extends Candy (String color){
-        this.color = color;
-    }
 
-    public String getColor() {
-        return color;
-    }
-*/
     public double getWeight() {
         return weight;
     }
@@ -43,7 +34,7 @@ public class Candy {
 
     @Override
     public String toString() {
-        return  "Название: " + name +
+        return  "Тип сладости: " + type +
                 ", Количество: " + pcs +
                 ", Вес: " + weight +
                 ", Цена за единицу: " + price;

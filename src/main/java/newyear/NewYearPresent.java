@@ -20,10 +20,10 @@ public class NewYearPresent {
 
     private static List<Candy> getCandies() {
         return Arrays.asList(
-                new Candy(14,"Леденец",0.02, 24.65),
-                new Candy(20,"Зефир",0.015, 4.65),
-                new Candy(8,"Ириска",0.03, 0.15),
-                new Candy(5,"Нуга",0.06, 3.14)
+                new Petushok(14,"Леденец",0.02, 24.65, "Петушок на палочке"),
+                new Sharmel(20,"Зефир",0.015, 4.65, "Шармель"),
+                new Rubber(8,"Ириска",0.03, 0.15, "Зубы на полку"),
+                new Nougat(5,"Нуга",0.06, 3.14, "С орешками")
         );
     }
 }
