@@ -4,8 +4,3 @@
  */
 
 package kalkulatorOOP;
-
-public class Operations extends IncomeData{
-    if (String operator.equals("+")) {
-        resultat = double pervoeChislo + double vtoroeChislo;
-}
