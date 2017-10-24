@@ -1,4 +1,9 @@
+/*
+ * Copyright (c) 2017.
+ * Egor_Che
+ */
+
 package CalculatorOOP;
 
-public class Operations {
+private class Operations extends InputData{
 }

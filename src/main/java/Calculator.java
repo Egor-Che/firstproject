@@ -1,4 +1,4 @@
-/**
+/*
  * Author: Egor_Che
  * 16.10.2017
  * Aplana
